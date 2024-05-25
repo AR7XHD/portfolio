@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Bar with Search Box</title>
+    <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Unicons CSS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+   <script src="JS/script.js" defer></script>
+  </head>
+  <body style="background-image: url(background.jpg);">
+    <nav class="nav">
+      <i class="uil uil-bars navOpenBtn"></i>
+      <a href="#" class="logo">Logo</a>
+      <ul class="nav-links">
+        <i class="uil uil-times navCloseBtn"></i>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <i class="uil uil-search search-icon" id="searchIcon"></i>
+      <div class="search-box">
+        <i class="uil uil-search search-icon"></i>
+        <input type="text" placeholder="Search here..." />
+      </div>
+    </nav>
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="img1.jpg" style="width:100%">
+          <div class="text23">Caption Text</div>
+      </div>
+      <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img2.jpg" style="width:100%">
+          <div class="text23">Caption Two</div>
+      </div>
+      <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img3.jpg" style="width:100%">
+          <div class="text23">Caption Three</div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+
+  <div class="cards-section">
+    <div class="wrapper">
+      <i id="left" class="fa-solid fa-angle-left"></i>
+      <ul class="carousel">
+      <li class="card">
+
+<!-- added a tag -->
+
+        <div class="img"> <a href=""> <img src="img1.jpg" alt="img" draggable="false"> </a> </div>
+        <h2>Blanche Pearson</h2>
+        <span>Sales Manager</span>
+      </li>
+      <li class="card">
+        <div class="img"><img src="car.jpg" alt="img" draggable="false"></div>
+        <h2>Joenas Brauers</h2>
+        <span>Web Developer</span>
+      </li>
+      <li class="card">
+        <div class="img"><img src="img2.jpg" alt="img" draggable="false"></div>
+        <h2>Lariach French</h2>
+        <span>Online Teacher</span>
+      </li>
+      <li class="card">
+        <div class="img"><img src="landscape.jpg" alt="img" draggable="false"></div>
+        <h2>James Khosravi</h2>
+        <span>Freelancer</span>
+      </li>
+      <li class="card">
+        <div class="img"><img src="images/img-5.jpg" alt="img" draggable="false"></div>
+        <h2>Kristina Zasiadko</h2>
+        <span>Bank Manager</span>
+      </li>
+      <li class="card">
+        <div class="img"><img src="img3.jpg" alt="img" draggable="false"></div>
+        <h2>Donald Horton</h2>
+        <span>App Designer</span>
+      </li>
+    </ul>
+    <i id="right" class="fa-solid fa-angle-right"></i>
+  </div>
+</div>
+
+<section class="about-us">
+  <div class="about">
+    <img src="pic2.jpg" class="pic">
+    <div class="text">
+      <h2>About Us</h2>
+      <h5>Front-end Developer & <span>Designer</span></h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita natus ad sed harum itaque ullam enim quas, veniam accusantium, quia animi id eos adipisci iusto molestias asperiores explicabo cum vero atque amet corporis! Soluta illum facere consequuntur magni. Ullam dolorem repudiandae cumque voluptate consequatur consectetur, eos provident necessitatibus reiciendis corrupti!</p>
+      <div class="data">
+      <a href="#" class="hire">Hire Me</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about-us">
+  <div class="about2">
+    <div class="text">
+      <h2>About Us</h2>
+      <h5>Front-end Developer & <span>Designer</span></h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita natus ad sed harum itaque ullam enim quas, veniam accusantium, quia animi id eos adipisci iusto molestias asperiores explicabo cum vero atque amet corporis! Soluta illum facere consequuntur magni. Ullam dolorem repudiandae cumque voluptate consequatur consectetur, eos provident necessitatibus reiciendis corrupti!</p>
+      <div class="data">
+      <a href="#" class="hire">Hire Me</a>
+      </div>
+    </div>
+    <img src="pic2.jpg" class="pic">
+  </div>
+</section>
+
+<div class="content1">
+  <div class="text22">Fully Responsive Footer Section</div>
+  <div class="p">HTML and CSS (Flexbox)</div>
+</div>
+<footer>
+  <div class="main-content">
+    <div class="left box">
+      <h2 class="h11">About us</h2>
+      <div class="content">
+        <p class="p11">CodinNepal is a YouTube channel where you can learn web designing, web development, ui/ux designing, html css tutorial, hover animation and effects, javascript and jquery tutorial and related so on.</p>
+        <div class="social">
+          <a href="https://facebook.com/coding.np"><span class="fab fa-facebook-f"></span></a>
+          <a href="#"><span class="fab fa-twitter"></span></a>
+          <a href="https://instagram.com/coding.np"><span class="fab fa-instagram"></span></a>
+          <a href="https://youtube.com/c/codingnepal"><span class="fab fa-youtube"></span></a>
+        </div>
+      </div>
+    </div>
+    <div class="center box">
+      <h2 class="h11">Address</h2>
+      <div class="content">
+        <div class="place">
+          <span class="fas fa-map-marker-alt"></span>
+          <span class="text24">Birendranagar, Surkhet</span>
+        </div>
+        <div class="phone">
+          <span class="fas fa-phone-alt"></span>
+          <span class="text24">+089-765432100</span>
+        </div>
+        <div class="email">
+          <span class="fas fa-envelope"></span>
+          <span class="text24">abc@example.com</span>
+        </div>
+      </div>
+    </div>
+    <div class="right box">
+      <h2 class="h11">Contact us</h2>
+      <div class="content">
+        <form action="#">
+          <div class="email">
+            <div class="text24">Email *</div>
+            <input type="email" required>
+          </div>
+          <div class="msg">
+            <div class="text24">Message *</div>
+            <textarea rows="2" cols="25" required></textarea>
+          </div>
+          <div class="btn">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="bottom">
+    <center>
+      <span class="credit">Created By <a href="https://www.codingnepalweb.com">CodingNepal</a> | </span>
+      <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
+    </center>
+  </div>
+</footer>
+
+</body>
+</html>
+
+  <!-- <script src="script.js"></script> -->
+
+   
+  
+</body>
+</html>
