@@ -958,7 +958,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #fa65b1;
+    background: purple;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
