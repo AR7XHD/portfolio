@@ -883,6 +883,11 @@ header
   .header-area .main-nav .nav {
     display: flex !important;
   }
+
+  .main-banner .left-content p {
+  margin-left: 20px;
+}
+  
 }
 
 /* 
